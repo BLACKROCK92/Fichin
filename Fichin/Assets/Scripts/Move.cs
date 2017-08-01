@@ -40,6 +40,7 @@ public class Move : MonoBehaviour
 
             // Apply a force relative to the player's x-axis
             GetComponent<Rigidbody>().AddForce((playerPosRight * fwdForce) + (Vector3.up * upForce));
+
         }
     }
 
